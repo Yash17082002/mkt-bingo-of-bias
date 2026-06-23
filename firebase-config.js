@@ -1,17 +1,22 @@
-/* BINGO OF BIAS — SHARED CONFIGURATION */
+/* ============================================================
+   BINGO OF BIAS — SHARED CONFIGURATION
+   Used by BOTH index.html (players) and host.html.
+   This file is plain JavaScript loaded by a <script> tag.
+   It must NOT contain any "import" or "initializeApp" lines —
+   index.html and host.html already do that for you.
+   ============================================================ */
 
-/* 1) FIREBASE KEYS — PASTE YOUR OWN HERE */
-const firebaseConfig = {
-  apiKey: "AIzaSyArvT4dAY2D0H0LNdDmana83YJY4rjZQco",
-  authDomain: "bingo-of-bias.firebaseapp.com",
-  projectId: "bingo-of-bias",
-  storageBucket: "bingo-of-bias.firebasestorage.app",
+/* 1) FIREBASE KEYS (already filled in for project "bingo-of-bias") */
+const FIREBASE_CONFIG = {
+  apiKey:            "AIzaSyArvT4dAY2D0H0LNdDmana83YJY4rjZQco",
+  authDomain:        "bingo-of-bias.firebaseapp.com",
+  projectId:         "bingo-of-bias",
+  storageBucket:     "bingo-of-bias.firebasestorage.app",
   messagingSenderId: "690552616081",
-  appId: "1:690552616081:web:833c1d347d271bfb68fb30",
-  measurementId: "G-ZTJXPP588N"
+  appId:             "1:690552616081:web:833c1d347d271bfb68fb30"
 };
 
-/* 2) PASSWORDS */
+/* 2) PASSWORDS — change these to whatever you like */
 const PLAYER_PASSWORD = "bias2025";
 const HOST_PASSWORD   = "host2025";
 
