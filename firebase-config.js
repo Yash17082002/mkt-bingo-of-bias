@@ -9,14 +9,6 @@
    Get these from the Firebase console (see SETUP_GUIDE.md, Step 2).
    Until you paste real values the game will not connect.
    ------------------------------------------------------------ */
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyArvT4dAY2D0H0LNdDmana83YJY4rjZQco",
   authDomain: "bingo-of-bias.firebaseapp.com",
@@ -26,10 +18,6 @@ const firebaseConfig = {
   appId: "1:690552616081:web:833c1d347d271bfb68fb30",
   measurementId: "G-ZTJXPP588N"
 };
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 /* ------------------------------------------------------------
    2) PASSWORDS  ——  CHANGE THESE TO ANYTHING YOU LIKE
